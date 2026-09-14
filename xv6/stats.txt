@@ -1,0 +1,17 @@
+FIFO
+{'pid': 4, 'name': 'schedulertest', 'TT': 20, 'RT': 0, 'WT': 0}
+{'pid': 5, 'name': 'schedulertest', 'TT': 61, 'RT': 1, 'WT': 1}
+{'pid': 6, 'name': 'schedulertest', 'TT': 151, 'RT': 1, 'WT': 1}
+{'pid': 7, 'name': 'schedulertest', 'TT': 175, 'RT': 20, 'WT': 175}
+
+RR
+{'pid': 4, 'name': 'schedulertest', 'TT': 20, 'RT': 0, 'WT': 0}
+{'pid': 5, 'name': 'schedulertest', 'TT': 61, 'RT': 1, 'WT': 1}
+{'pid': 6, 'name': 'schedulertest', 'TT': 151, 'RT': 1, 'WT': 1}
+{'pid': 7, 'name': 'schedulertest', 'TT': 152, 'RT': 2, 'WT': 152}
+
+MLFQ
+{'pid': 4, 'name': 'schedulertest', 'TT': 21, 'RT': 0, 'WT': 8}
+{'pid': 5, 'name': 'schedulertest', 'TT': 61, 'RT': 1, 'WT': 12}
+{'pid': 6, 'name': 'schedulertest', 'TT': 151, 'RT': 1, 'WT': 14}
+{'pid': 7, 'name': 'schedulertest', 'TT': 152, 'RT': 2, 'WT': 152}
